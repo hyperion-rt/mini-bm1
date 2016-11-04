@@ -1,6 +1,8 @@
-# Determine the amount of energy absorbed by a slab near a point source, from
-# the point source itself (not reprocessed radiation). This assumes that
-# photons can scatter once.
+# Determine the amount of energy absorbed by a slab near a point source. This
+# assumes the following:
+#
+# - No self-heating (no energy absorbed from re-emitted radiation)
+# - No scattering (very optically thin)
 
 import numpy as np
 
